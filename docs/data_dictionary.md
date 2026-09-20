@@ -1,9 +1,9 @@
 # NHS A&E Pipeline — Data Dictionary
 
-**Source:** NHS England A&E Attendances and Emergency Admissions  
-**URL:** https://www.england.nhs.uk/statistics/statistical-work-areas/ae-waiting-times-and-activity/  
-**Update frequency:** Monthly (published on the 2nd Thursday of each month, covering the previous month)  
-**Downloaded by:** Manual download from NHS England website  
+**Source:** NHS England A&E Attendances and Emergency Admissions
+**URL:** https://www.england.nhs.uk/statistics/statistical-work-areas/ae-waiting-times-and-activity/
+**Update frequency:** Monthly (published on the 2nd Thursday of each month, covering the previous month)
+**Downloaded by:** Manual download from NHS England website
 
 ---
 
@@ -73,13 +73,13 @@ Records every quality problem detected.
 
 NHS England notes several factors that affect interpretation of this data:
 
-- **Provider reconfigurations:** Mergers, splits and reclassifications mean that 
+- **Provider reconfigurations:** Mergers, splits and reclassifications mean that
   changes between months do not always reflect changes in patient activity.
-- **Late submissions:** Some providers submit revised figures after initial publication. 
+- **Late submissions:** Some providers submit revised figures after initial publication.
   Files marked revised in the filename contain corrected data.
-- **February:** Shorter month means lower raw attendance counts are expected 
+- **February:** Shorter month means lower raw attendance counts are expected
   and should not be interpreted as a drop in demand.
-- **Type 3 / Other departments:** The definition of this category has changed 
+- **Type 3 / Other departments:** The definition of this category has changed
   over time. Long-run comparisons should account for this.
-- **TOTAL row:** Each source file contains a pre-calculated TOTAL summary row 
+- **TOTAL row:** Each source file contains a pre-calculated TOTAL summary row
   with org_code = TOTAL. This row is excluded from the reporting table.
