@@ -11,7 +11,7 @@ dictionary and provider-level reporting.
 ```bash
 git clone https://github.com/KJ0211/nhs-ae-pipeline.git
 cd nhs-ae-pipeline
-pip install duckdb pandas openpyxl requests
+pip install duckdb pandas openpyxl requests matplotlib
 ```
 
 ### 2. Download the source files
