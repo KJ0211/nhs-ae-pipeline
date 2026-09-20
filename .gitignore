@@ -1,0 +1,6 @@
+data/
+nhs_ae.duckdb
+__pycache__/
+*.pyc
+.env
+venv/
